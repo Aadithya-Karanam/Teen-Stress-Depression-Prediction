@@ -1,0 +1,117 @@
+{
+  "best_params": {
+    "max_depth": 10,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "n_estimators": 50
+  },
+  "cv_accuracy": 0.978125,
+  "test_accuracy": 0.975,
+  "confusion_matrix": [
+    [
+      234,
+      0
+    ],
+    [
+      6,
+      0
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.975,
+      "recall": 1.0,
+      "f1-score": 0.9873417721518988,
+      "support": 234.0
+    },
+    "1": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 6.0
+    },
+    "accuracy": 0.975,
+    "macro avg": {
+      "precision": 0.4875,
+      "recall": 0.5,
+      "f1-score": 0.4936708860759494,
+      "support": 240.0
+    },
+    "weighted avg": {
+      "precision": 0.950625,
+      "recall": 0.975,
+      "f1-score": 0.9626582278481013,
+      "support": 240.0
+    }
+  },
+  "feature_importances": [
+    {
+      "feature": "sleep_hours",
+      "importance": 0.20097520625001838
+    },
+    {
+      "feature": "daily_social_media_hours",
+      "importance": 0.16586737610016541
+    },
+    {
+      "feature": "stress_level",
+      "importance": 0.1334896314055616
+    },
+    {
+      "feature": "anxiety_level",
+      "importance": 0.11699916111496636
+    },
+    {
+      "feature": "academic_performance",
+      "importance": 0.08231904152164725
+    },
+    {
+      "feature": "screen_time_before_sleep",
+      "importance": 0.0721694424823048
+    },
+    {
+      "feature": "addiction_level",
+      "importance": 0.05089140651633608
+    },
+    {
+      "feature": "physical_activity",
+      "importance": 0.04927477750282535
+    },
+    {
+      "feature": "age",
+      "importance": 0.04840146505754258
+    },
+    {
+      "feature": "social_interaction_level",
+      "importance": 0.024557115976782503
+    },
+    {
+      "feature": "gender",
+      "importance": 0.019604975075565984
+    },
+    {
+      "feature": "platform_usage_Both",
+      "importance": 0.0160095742960892
+    },
+    {
+      "feature": "platform_usage_Instagram",
+      "importance": 0.011090979320788308
+    },
+    {
+      "feature": "platform_usage_TikTok",
+      "importance": 0.008349847379406312
+    }
+  ],
+  "dataset_records": 1200,
+  "feature_count": 14,
+  "missing_values": 0,
+  "class_counts": {
+    "0": 1169,
+    "1": 31
+  },
+  "trained_at_utc": "2026-11-09T17:37:29.213329+00:00",
+  "target_labels": {
+    "0": "No",
+    "1": "Yes"
+  }
+}
